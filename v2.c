@@ -7,7 +7,7 @@ int main(void) {
    int valor;
    int bin[8];
    int aux;
-   
+   //teste
     printf("Calculadora de conversao de bases numericas \n");
     printf("1: Decimal para Binario \n");
     scanf("%d", &opcao);
