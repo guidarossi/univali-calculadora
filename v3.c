@@ -3,32 +3,33 @@
 
 int main(void) {
     
-   int opcao; //utilizado para definicao de operacao
-   int valor; //recebe o valor digitado pelo usuario
-   int bin[200]; //vetor para a operacao de conversao de decimal para binario
-   int aux=0; //auxiliar para laco de repeticao
-   int cont = 0; //contador de casas
-   int exp = 0; //utilizado para conversao de binario para decimal
-   int soma = 0; //utilizado para somar
+    int opcao; //utilizado para definicao de operacao
+    int valor; //recebe o valor digitado pelo usuario
+    int bin[200]; //vetor para a operacao de conversao de decimal para binario
+    int aux=0; //auxiliar para laco de repeticao
+    int cont = 0; //contador de casas
+    int exp = 0; //utilizado para conversao de binario para decimal
+    int soma = 0; //utilizado para somar
+
    
-     printf("Calculadora de conversao de bases numericas \n");
-     printf("1: Decimal para Binario \n");
-     printf("2: Binario para Decimal \n");
-     printf("\n\nInforme a opcao: ");
-     scanf("%d", &opcao);
+    printf("Calculadora de conversao de bases numericas \n");
+    printf("1: Decimal para Binario \n");
+    printf("2: Binario para Decimal \n");
+    printf("\n\nInforme a opcao: ");
+    scanf("%d", &opcao);
 
      
     
-       switch (opcao){
-       case 1 :
-           printf("\nDigite o valor em decimal: ");
-           scanf("%d", &valor);
-           
-           //se digitar 1 imprime ele mesmo
-           if (valor == 1){
-               printf("%d\n", valor);
-           }
-           
+    switch (opcao){
+    case 1 :
+        printf("\nDigite o valor em decimal: ");
+        scanf("%d", &valor);
+        
+        //se digitar 1 imprime ele mesmo
+        if (valor == 1){
+            printf("%d\n", valor);
+        }
+        
            /*se for maior que 1 realiza divisões por 2
            imprimindo o seu resto para contrução na 
            forma binaria*/
