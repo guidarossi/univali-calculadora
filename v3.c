@@ -7,7 +7,7 @@ int main(void) {
     int valor; //recebe o valor digitado pelo usuario
     int bin[200]; //vetor para a operacao de conversao de decimal para binario
     int aux=0; //auxiliar para laco de repeticao para exibir o resultado
-    int cont = 0; //contador de casas *
+    int cont = 0; //contador de casas **
 
    
     printf("Calculadora de conversao de bases numericas \n");
