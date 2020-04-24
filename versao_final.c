@@ -71,8 +71,8 @@ int main(void) {
                 }
         
             case 2 :
-                pot = 1; //faz a potencicao
-                decimal = 0; //recebe o valor convertido de binario para decimal
+                pot = 1; //Atribuindo o valor 1 a pot para evitar acumulo de valores
+                decimal = 0; //Atribuindo o valor 0 para evitar acumulo de valores
                 printf("\nDigite o valor em Binario: ");
                 scanf("%d", &valor);
                 //se digitar 0 imprime ele mesmo
