@@ -107,7 +107,7 @@ int main(void) {
         default:
             break;
         }
-    } while (opcao != 0);
+    } while (opcao != 0); //Enquanto a opcao digitada pelo usuario for diferente de 0, o Do sera executado
         printf("Calculadora encerrada");
     return 0;
 }
