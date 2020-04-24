@@ -103,6 +103,7 @@ int main(void) {
                     printf("O valor em decimal e: "); 
                     printf("%d", decimal);                
                 }
+                printf("\n");
                 break;
         default:
             break;
